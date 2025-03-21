@@ -1,0 +1,39 @@
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.fieldset label {
+    color: var(--color-grey-dark-03-rgb);
+    font-size: var(--fs-xs);
+    font-weight: 500;
+}
+/* .fieldset label:not(.optional) {
+    font-weight: 700;
+} */
+.fieldset label.optional {
+    color: rgba(0, 0, 0, 0.5);
+}
+.fieldset label.optional::after {
+    color: rgba(0, 0, 0, 0.4);
+    content: ' - Optional';
+    font-style: italic;
+}
+.fieldset input[type=text],
+.fieldset input[type=date] {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+}
+.fieldset select {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
+}
+
+.fieldgroup {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+}

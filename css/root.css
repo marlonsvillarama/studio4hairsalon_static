@@ -1,0 +1,56 @@
+:root {
+    --box-shadow: rgba(0, 0, 0, 0.8) 0px 3px 8px;
+    --button-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --button-shadow-hover: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    --card-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    --card-shadow-full: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    --br-sm: 640px;
+    --br-md: 768px;
+    --br-lg: 1024px;
+    --br-xl: 1280px;
+    --br-2xl: 1536px;
+
+    /* --color-blue-flag: #0032A0;
+    --color-blue-flag-lite: rgba(0, 50, 160, 0.8);
+    --color-default: rgb(17, 24, 39);
+    --color-font: rgba(0, 0, 0, 0.7);
+    --color-slate-900: rgb(15, 23, 42);
+    --color-white: #FFFFFF; */
+
+    --color-red-flag-lite: rgba(191, 13, 62, 0.9);
+    --color-red-flag: rgba(191, 13, 62);
+
+    --color-black: #000000;
+    --color-grey-dark-01: #1B1D1D;
+    --color-grey-dark-02: #2F3132;
+    --color-grey-dark-03: #333333;
+    --color-grey-dark-03-rgb: rgba(51, 51, 51, 0.75);
+    --color-grey-dark-03-rgb-dark: rgba(51, 51, 51, 1);
+    --color-grey-dark-03-rgb-lite: rgba(51, 51, 51, 0.5);
+    --color-grey-lite-01: #969696;
+    --color-white: #FFFFFF;
+    --color-accent: #D4AD61;
+    --color-accent: #D4AD61;
+    /* --color-accent: #FFAB00; */
+
+    --color-font: #1B1D1D;
+
+    /* --font-sans: "Plus Jakarta Sans", sans-serif; */
+    --font-logo: 'Corinthia', 'Times New Roman', serif;
+    --font-notosans: 'Noto Sans', sans-serif;
+    /* --font-inter: "Inter", sans-serif; */
+    /* --font-sans: "Open Sans", sans-serif; */
+    /* --font-serif: 'Lora', 'Times New Roman', serif; */
+    --font-serif: 'Noto Serif', serif;
+
+    --fs-xxs: 0.65rem;
+    --fs-xs: 0.75rem;
+    --fs-sm: 0.875rem;
+    --fs-md: 1rem;
+    --fs-lg: 1.125rem;
+    --fs-xl: 1.5rem;
+    --fs-2xl: 2rem;
+    --fs-3xl: 3rem;
+    --fs-4xl: 4rem;
+}

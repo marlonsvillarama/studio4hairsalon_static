@@ -1,0 +1,75 @@
+.tile {
+    /* width: 20rem; */
+    border: none;
+    margin: 0 auto;
+    /* background-color: aliceblue; */
+    /* border: 1px solid green; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bg-img {
+    /* filter: blur(0.25rem); */
+    background-size: cover;
+    height: 18rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    /* z-index: -10; */
+    transition: all 150ms ease-in-out;
+}
+.tile:hover > .bg-img {
+    box-shadow: var(--box-shadow);
+    transform: translateY(-2px);
+}
+#haircut {
+    background-image: url('/images/haircut.webp');
+    background-position: -2rem 1;
+}
+#colours {
+    background-image: url('/images/colours.webp');
+    background-position: -7rem 0;
+}
+#treatment {
+    background-image: url('/images/treatment.webp');
+    background-position: -3rem 0;
+    /* background-size: cover; */
+}
+#other {
+    background-image: url('/images/other.webp');
+    background-position: -3rem 0;
+}
+.tile h2 {
+    /* font-family: var(--font-sans); */
+    font-size: var(--fs-lg);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    /* position: absolute; */
+    /* color: var(--color-grey-dark-03-rgb); */
+    z-index: 100;
+    margin-bottom: 0.5rem;
+}
+/* .tile > .mask {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    transition: all 150ms ease-in-out;
+}
+.tile>.mask:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+} */
+.tile .sep {
+    width: 50%;
+    border: 1px solid var(--color-grey-dark-03-rgb-lite);
+    margin-bottom: 1rem;
+}
+.tile p {
+    width: 80%;
+    font-size: var(--fs-sm);
+    letter-spacing: 0.5px;
+    color: rgba(0, 0, 0, 0.7);
+}

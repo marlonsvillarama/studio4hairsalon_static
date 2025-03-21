@@ -1,0 +1,74 @@
+.hero {
+    background-size: cover;
+    /* z-index: -10; */
+    width: 100%;
+    margin-top: -6rem;
+    /* margin-bottom: 5rem; */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.hero h1 {
+    font-family: var(--font-notosans);
+    color: white;
+    font-weight: 100;
+    font-size: var(--fs-4xl);
+}
+.hero p {
+    letter-spacing: 0.75px;
+    color: rgba(255, 255, 255, 1);
+}
+/* .mask {
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0;
+    width: 100%;
+    margin-top: 0rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+} */
+#cover {
+    background-image: url('/images/action-01-tundra02.webp');
+    padding: 20rem 0 25rem;
+    /* height: 70rem; */
+    /* background-position: 0 -5rem; */
+}
+#services {
+    background-image: url('/images/action-01-tundra02.webp');
+    padding: 13rem 0 10rem;
+}
+#comingsoon {
+    background-image: url('/images/comingsoon.webp');
+    padding: 12rem 0 8rem;
+}
+#book {
+    background-image: url('/images/john-white02.webp');
+    height: 6rem;
+    background-size: cover;
+    /* background-position: 50% 50%; */
+}
+/* #reviews {
+    background-image: url('/images/action-01-tundra02.webp');
+    padding: 13rem 0 10rem;
+} */
+/* #contact {
+    background-image: url('/images/action-01-tundra02.webp');
+    padding: 13rem 0 10rem;
+} */
+/* #services {
+    background-image: url('/images/action-01.webp');
+    background-position: 0 0;
+    height: 35rem;
+}
+#services .mask {
+    height: 35rem;
+} */
+/* #contact {
+    background-image: url('/images/action-01.webp');
+    background-position: 0 0;
+    height: 35rem;
+}
+#contact .mask {
+    height: 35rem;
+} */
