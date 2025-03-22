@@ -1,0 +1,18 @@
+#service-grid {
+    box-sizing: border-box;
+    position: relative;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* border: 1px solid red; */
+    /* row-gap: 3rem; */
+    column-gap: 6rem;
+    row-gap: 4rem;
+}
+#service-grid .service h1 {
+    color: var(--color-accent);
+    font-size: var(--fs-2xl);
+    font-family: var(--font-notosans);
+    font-weight: 700;
+    border-bottom: 2px solid var(--color-accent);
+}
